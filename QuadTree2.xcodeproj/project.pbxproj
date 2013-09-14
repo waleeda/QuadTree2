@@ -21,6 +21,8 @@
 		F5A6931617E40275002B62DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A692F817E40274002B62DB /* UIKit.framework */; };
 		F5A6931E17E40275002B62DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A6931C17E40275002B62DB /* InfoPlist.strings */; };
 		F5A6932017E40275002B62DB /* QuadTree2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6931F17E40275002B62DB /* QuadTree2Tests.m */; };
+		F5A6932B17E40281002B62DB /* QuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6932A17E40281002B62DB /* QuadTree.m */; };
+		F5A6932E17E4028E002B62DB /* DataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6932D17E4028E002B62DB /* DataPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		F5A6931B17E40275002B62DB /* QuadTree2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuadTree2Tests-Info.plist"; sourceTree = "<group>"; };
 		F5A6931D17E40275002B62DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5A6931F17E40275002B62DB /* QuadTree2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuadTree2Tests.m; sourceTree = "<group>"; };
+		F5A6932917E40281002B62DB /* QuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadTree.h; sourceTree = "<group>"; };
+		F5A6932A17E40281002B62DB /* QuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadTree.m; sourceTree = "<group>"; };
+		F5A6932C17E4028E002B62DB /* DataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPoint.h; sourceTree = "<group>"; };
+		F5A6932D17E4028E002B62DB /* DataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,10 @@
 		F5A692E817E40274002B62DB = {
 			isa = PBXGroup;
 			children = (
+				F5A6932917E40281002B62DB /* QuadTree.h */,
+				F5A6932A17E40281002B62DB /* QuadTree.m */,
+				F5A6932C17E4028E002B62DB /* DataPoint.h */,
+				F5A6932D17E4028E002B62DB /* DataPoint.m */,
 				F5A692FA17E40274002B62DB /* QuadTree2 */,
 				F5A6931917E40275002B62DB /* QuadTree2Tests */,
 				F5A692F317E40274002B62DB /* Frameworks */,
@@ -249,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A6932E17E4028E002B62DB /* DataPoint.m in Sources */,
+				F5A6932B17E40281002B62DB /* QuadTree.m in Sources */,
 				F5A6930B17E40274002B62DB /* ViewController.m in Sources */,
 				F5A6930517E40274002B62DB /* AppDelegate.m in Sources */,
 				F5A6930117E40274002B62DB /* main.m in Sources */,
